@@ -1,3 +1,5 @@
+this is my vial-qmk config for the sofle keyboard
+
 # setup
 - clone this repo
 - [follow steps](https://get.vial.today/docs/porting-to-vial.html) to setup the build environment
@@ -13,5 +15,6 @@
 # compiling and flashing
 - run `make sofle:vial`
 - open QMK toolbox, turn on auto flash
+- make sure ATmega32U4 is selected
 - select `sofle_rev1_vial.hex`
 - plug in the sofle keyboard and press the reset button under the OLED screen cover
